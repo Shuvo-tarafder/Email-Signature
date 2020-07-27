@@ -2,32 +2,32 @@
 
 @font-face {
     font-family: ave;
-    src: url(/fonts/ave.otf);
-}
-
-@font-face {
-  font-family: ave-oblique;
-  src: url(/fonts/ave-oblique.otf);
+    src: url(../fonts/ave.otf);
 }
 
 @font-face {
     font-family: ave-light;
-    src: url(/fonts/ave-light.otf);
+    src: url(../fonts/ave-light.otf);
+}
+
+@font-face {
+  font-family: ave-italic;
+  src: url(../fonts/ave-italic.otf);
 }
 
 @font-face {
     font-family: ave-book;
-    src: url(/fonts/ave-book.ttf);
+    src: url(../fonts/ave-book.ttf);
 }
 
 @font-face {
     font-family: ave-havy;
-    src: url(/fonts/ave-havy.ttf);
+    src: url(../fonts/ave-havy.ttf);
 }
 
 @font-face {
     font-family: ave-med;
-    src: url(/fonts/ave-med.ttf);
+    src: url(../fonts/ave-med.ttf);
 }
 
 body {
@@ -51,7 +51,6 @@ body {
    left: 50%;
    transform: translate(-50%, 50%);
 }
-
 
 p,
 span {
@@ -87,7 +86,7 @@ header .header-middle .heading-area h1 {
 
 header .header-middle .heading-area h2 {
     font-size: 12px;
-    margin-bottom: 0;
+    margin-bottom: 1.4px;
     margin-top: 0;
     font-family: ave-light;
 }
@@ -180,7 +179,7 @@ header table .header-right{
     color: #58595a;
     font-weight: bolder;
     font-weight: 400;
-    font-family: ave-oblique;
+    font-family: ave-italic;
 }
 
 
